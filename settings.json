@@ -1,0 +1,79 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.pythonPath": "/usr/local/bin/python3",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "editor.detectIndentation": false,
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "files.hotExit": "off",
+    "editor.minimap.enabled": false,
+    "diffEditor.renderSideBySide": false,
+    "workbench.colorTheme": "Noctis",
+    "workbench.colorCustomizations": {
+
+        "editor.background": "#0f0206",
+        "editor.foreground": "#b2cacd",
+        "editorGutter.background": "#0f0206",
+        "editorLineNumber.foreground": "#4e6b6e",
+        "activityBar.background": "#0f0206",
+        "sideBar.background": "#0f0206",
+        "statusBar.background": "#041d20",
+        "tab.inactiveBackground": "#0f0206",
+        "editorGroupHeader.tabsBackground": "#0f0206",
+        "editor.selectionBackground": "#6b1616", //Current SELECTED text
+        "editor.selectionHighlightBackground": "#545455", //same content as the selection
+        "editor.findMatchBackground": "#ff7b00a1", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#00f7ffa1" //Other SEARCH MATCHES
+    },
+    "editor.fontFamily": "Monaco, 'Courier New', Menlo, monospace",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.formatting.provider": "black",
+    "autoDocstring.docstringFormat": "google",
+    "editor.largeFileOptimizations": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+        "**/*.code-search": true,
+        "**/notebooks": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.languageServer": "Jedi",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501, W503",
+    ],
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "extensions.ignoreRecommendations": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "window.zoomLevel": 2
+}
